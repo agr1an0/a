@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.corpo {
+
+}
+
+.header {
+    background-color: darkBlue;
+    border-bottom: 4px solid Black;
+    color: yellow;
+    height: 12vh;
+}
+
+.header h1 {
+
+}
+
+.header img {
+
+}
+
+.painel {
+
+}
+
+.painel h1 {
+
+}
+
+.titulo {
+
+}
+
+.painel {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1250px;
+    height: 900px;
+}
+
+.bloco {
+    width: 9%;
+    height: 10%;
+    background-color: blue;
+    margin-inline: 17px;
+}
+
+@media screen { }
