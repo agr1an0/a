@@ -2,50 +2,74 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color:indigo;
+    width: 100vw;
+    height: 99vh;
+}
 
 .corpo {
-
+    height: auto;
 }
 
 .header {
+    width: auto;
     background-color: darkBlue;
     border-bottom: 4px solid Black;
     color: yellow;
-    height: 12vh;
+    height: 80px;
 }
 
 .header h1 {
-
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    padding-inline: 25px;
+}
+.nome {
+    width: fit-content;
 }
 
 .header img {
-
-}
-
-.painel {
-
-}
-
-.painel h1 {
-
-}
-
-.titulo {
-
+    width: 70px;
+    height: 70px;
+    border-radius: 40%;
 }
 
 .painel {
     display: flex;
     flex-wrap: wrap;
-    width: 1250px;
-    height: 900px;
+    width: 50vw;
+    min-height: 600px;
+    max-height: fit-content;
+    padding-top: 8px;
+    justify-self: center;
+    background-image:  ;
+    box-shadow: 7px 7px 6px 0px;
+}
+
+.tituloJogo { 
+    color: black;
+    text-size-adjust: 15px;
+    
 }
 
 .bloco {
-    width: 9%;
-    height: 10%;
-    background-color: blue;
+    width: 70px;
+    height: 95px;
+    background-color: blue; 
+    margin: 5px;
     margin-inline: 17px;
+    border: solid black 1px;
+    box-shadow: 4px 4px 4px 0px;
 }
+.bloco:hover { 
+    transform: scale(1.3);
+    background-color: rgb(4, 4, 177);
+    border: solid rgb(206, 206, 6) 5px;
+    transition: ease-in-out 0.4s
+}
+/* width: 9%;
+height: 10%; */
 
 @media screen { }
